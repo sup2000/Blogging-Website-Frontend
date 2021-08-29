@@ -1,0 +1,304 @@
+body{
+  box-sizing: border-box;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}
+
+.border
+{
+ border:
+}
+
+.headingcontainer
+{
+  display:flex;
+  justify-content: space-between;
+}
+.searchcontainer
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navcontainer{
+  background-color: #555555;
+}
+.navcontainer ul{
+  display: flex;
+  justify-content: center;
+}
+.navcontainer ul li{
+  margin:10px;
+  list-style: none;
+}
+.navcontainer ul li a{
+  color:white;
+  text-decoration: none;
+}
+.navcontainer ul li a:hover{
+  color:aqua;
+}
+
+.navcontainer ul li button:hover{
+  color:aqua;
+  cursor: pointer;
+
+}
+
+.navcontainer button{
+  background-color: #2D2D2D;
+  color:white;
+  width:100px;
+  height:40px;
+  border: none;
+  font-size: smaller;
+}
+.search2 span
+{
+  color: #267699;
+}
+
+.section
+{
+  background-color:lightgrey;
+}
+.whiteborder
+{
+  border-bottom: 8px solid white;
+  border-radius: 5px;
+
+}
+.articlesection1
+{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.articlesection1 p
+{
+  color:grey;
+}
+.article1 img{
+  width:350px;
+  border: 1px solid black;
+}
+
+.article2
+{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.article3 img{
+  width:350px;
+  border: 1px solid black;
+}
+.article3 a{
+  text-decoration: none;
+  color:black;
+}
+.article3 a:hover{
+  cursor: pointer;
+  color:aqua;
+}
+
+.box1>img{
+  width:95px;
+  border:1px solid black;
+}
+
+footer{
+  display:flex;
+  flex-direction: column;
+  background-color:#2D2D2D;
+  color:white
+}
+
+.part1 ul{
+  display: flex;
+  justify-content: center;
+}
+.part1 ul li{
+  margin: 10px;
+  list-style: none;
+}
+.part1 ul li:hover{
+  color:aqua;
+  cursor: pointer;
+}
+.follow
+{
+  display: flex;
+  justify-content: center;
+}
+.followlinks
+{
+  display:flex;
+  justify-content: center;
+  
+}
+.followlinks button{
+  border-radius: 50%;
+}
+.copyright
+{ display: flex;
+  justify-content: center;
+}
+.copyright a
+{
+  text-decoration: none;
+  color:white;
+}
+.copyright a:hover{
+  cursor: pointer;
+  color:aqua;
+}
+.box1
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.facebook_btn
+{
+  background-color: blue;
+  border: none;
+  margin: 4px;
+}
+
+.twitter_btn
+{
+  background-color: skyblue;
+  border:none;
+  margin: 4px;
+}
+
+.gplus_btn
+{
+  background-color: red;
+  border: none;
+  margin: 4px;
+}
+.rss_btn
+{
+  background-color:yellow ;
+  border:none;
+  margin: 4px;
+}
+.youtube_btn
+{
+  background-color: red;
+  border: none;
+  margin: 4px;
+}
+.followlinks i{
+  font-size: 9px;
+  padding: 5px;
+  color:white;
+}
+
+.facebook_btn:hover{
+  opacity:0.5;
+  cursor: pointer;
+}
+
+.gplus_btn:hover{
+  opacity:0.5;
+  cursor: pointer; 
+}
+
+.twitter_btn:hover{
+  opacity:0.5;
+  cursor: pointer;
+
+}
+.rss_btn:hover{
+  opacity:0.5;
+  cursor: pointer;
+}
+
+.youtube_btn:hover{
+  opacity:0.5;
+  cursor: pointer;
+}
+
+.search1 a
+{
+ text-decoration: none;
+ color:white;
+ padding:2px;
+}
+.search1 a:hover
+{
+  color:aqua;
+}
+.getstarted
+{
+  background-color: black;
+  padding:2px;
+}
+
+
+/*2nd page*/
+.firstbox
+{ margin:5px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.containerlike
+{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.likes img{
+  width:25px;
+  border-radius: 50%;
+}
+.likes button{
+  border-radius: 50%;
+  border:1px solid grey;
+  margin:5px;
+}
+.likes button:hover
+{
+  cursor: pointer;
+}
+.imagecontainer img{
+  width:800px;
+  border: 2px solid black;
+}
+.article2{
+  font-size: larger;
+  font-family: 'Staatliches', cursive;
+  line-height:40px;
+}
+.head
+{
+  font-weight: 2000;
+}
+
+
+/*3rd Page*/
+
+.second
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first a{
+  text-decoration: none;
+  color: dimgray;
+}
+.first a:hover
+{
+  cursor: pointer;
+}
+.second p
+{
+  color:dimgray;
+}
